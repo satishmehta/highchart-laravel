@@ -1,0 +1,30 @@
+{
+    "name": "satishmehta/highcharts",
+    "description": "PHP-Laravel5 Highcharts",
+    "type": "library",
+    "license": "MIT",
+    "keywords" : ["laravel" , "highcharts","packages"],
+    "authors": [
+        {
+            "name": "Satish Mehta",
+            "email": "mehtasatishdutt@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RezaAr\\Highcharts\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RezaAr\\Highcharts\\Provider"
+            ],
+            "aliases": {
+                "Chart": "RezaAr\\Highcharts\\Facade"
+            }
+        }
+    }
+}
