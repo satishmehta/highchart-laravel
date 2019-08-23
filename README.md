@@ -9,7 +9,7 @@ Credits- forkerd from julles/laravel-highcharts
 Add Package to composer.json
 
 ```sh
-composer require satishmehta/highcharts
+composer require mehtasatish/highcharts
 ```
 In Laravel 5.5 or greater the service provider will automatically get registered. In older versions of the framework just add the service provider and facade in config/app.php file:
 
