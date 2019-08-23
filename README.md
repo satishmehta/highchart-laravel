@@ -1,6 +1,6 @@
 # PHP-Laravel 5 Highcharts
 
-PHP Highcharts for Laravel 5 with HeatMap, World Map and Tooltip.
+Highcharts for PHP-Laravel 5 with Charts, HeatMap, World Map and Tooltip.
 ```sh
 Credits- forkerd from julles/laravel-highcharts
 ```
