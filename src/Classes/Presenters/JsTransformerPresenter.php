@@ -105,24 +105,21 @@ class JsTransformerPresenter
         return $this;
     }
 
-    public function encode_coloraxis()
-    {
+    public function encode_coloraxis() {
         $data = $this->coloraxis;
         $this->coloraxis = !empty($data) ? 'colorAxis: '.json_encode($data).',' : null;
 
         return $this;
     }
 
-    public function tooltip()
-    {
+    public function tooltip() {
         $data = $this->tooltip;
         $this->tooltip = !empty($data) ? 'tooltip: '.json_encode($data).',' : null;
 
         return $this;
     }
 
-    public function mapnavigation()
-    {
+    public function mapnavigation(){
         $data = $this->mapnavigation;
         $this->mapnavigation = !empty($data) ? 'mapNavigation: '.json_encode($data).',' : null;
 

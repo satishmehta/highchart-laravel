@@ -154,29 +154,25 @@ class ChartPresenter
         return $this;
     }
 
-    public function coloraxis($series = [])
-    {
+    public function coloraxis($series = []) {
         $this->transform->coloraxis = $series;
 
         return $this;
     }
 
-    public function credits($credits = [])
-    {
+    public function credits($credits = []) {
         $this->transform->credits = $credits;
 
         return $this;
     }
 
-    public function tooltip($tooltip = [])
-    {
+    public function tooltip($tooltip = []) {
         $this->transform->tooltip = $tooltip;
 
         return $this;
     }
 
-    public function mapnavigation($mapnavigation = [])
-    {
+    public function mapnavigation($mapnavigation = []){
         $this->transform->mapnavigation = $mapnavigation;
 
         return $this;
