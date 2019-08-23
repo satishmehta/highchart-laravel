@@ -175,6 +175,13 @@ class ChartPresenter
         return $this;
     }
 
+    public function mapnavigation($mapnavigation = [])
+    {
+        $this->transform->mapnavigation = $mapnavigation;
+
+        return $this;
+    }
+
     public function getTransform()
     {
         $this->display .= $this->transform->transform();

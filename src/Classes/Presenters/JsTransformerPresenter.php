@@ -17,6 +17,7 @@ class JsTransformerPresenter
     public $coloraxis = [];
     public $credits = [];
     public $tooltip = [];
+    public $mapnavigation = [];
     public $container = 'container';
 
     public function __contruct()
@@ -120,6 +121,14 @@ class JsTransformerPresenter
         return $this;
     }
 
+    public function mapnavigation()
+    {
+        $data = $this->mapnavigation;
+        $this->mapnavigation = !empty($data) ? 'mapNavigation: '.json_encode($data).',' : null;
+
+        return $this;
+    }
+
     public function credits()
     {
         $data = $this->credits;
@@ -157,6 +166,7 @@ class JsTransformerPresenter
         $this->credits();
         $this->tooltip();
         $this->encode_coloraxis();
+        $this->mapnavigation();
 
         $allString = $this->title.
         $this->subtitle.
@@ -169,7 +179,8 @@ class JsTransformerPresenter
         $this->colors.
         $this->credits.
         $this->tooltip.
-        $this->coloraxis;
+        $this->coloraxis.
+        $this->mapnavigation;
 
         $allString = substr($allString, 0, -1);
         $allString = $this->replacer($allString);
@@ -195,6 +206,7 @@ class JsTransformerPresenter
         $this->credits();
         $this->tooltip();
         $this->encode_coloraxis();
+        $this->mapnavigation();
 
         $allString = $this->title.
         $this->subtitle.
@@ -207,7 +219,8 @@ class JsTransformerPresenter
         $this->colors.
         $this->credits.
         $this->tooltip.
-        $this->coloraxis;
+        $this->coloraxis.
+        $this->mapnavigation;
         
 
         $allString = substr($allString, 0, -1);
