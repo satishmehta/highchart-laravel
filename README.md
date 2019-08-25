@@ -1,15 +1,13 @@
 # PHP-Laravel 5 Highcharts
 
 Highcharts for PHP-Laravel 5 with Charts, HeatMap, World Map and Tooltip.
-```sh
-Credits- forkerd from julles/laravel-highcharts
-```
+
 ### Installations
 
 Add Package to composer.json
 
 ```sh
-composer require mehtasatish/highcharts
+composer require laravel/highcharts
 ```
 In Laravel 5.5 or greater the service provider will automatically get registered. In older versions of the framework just add the service provider and facade in config/app.php file:
 

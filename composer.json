@@ -6,8 +6,8 @@
     "keywords" : ["laravel" , "highcharts","packages"],
     "authors": [
         {
-            "name": "MS Dutt",
-            "email": "mehtasatishdutt@outlook.com"
+            "name": "MSDutt",
+            "email": "msdutt@outlook.com"
         }
     ],
     "minimum-stability": "stable",
