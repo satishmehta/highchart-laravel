@@ -1,5 +1,5 @@
 {
-    "name": "laravel/highcharts",
+    "name": "highchart/laravel",
     "description": "PHP-Laravel5 Highcharts",
     "type": "library",
     "license": "MIT",
