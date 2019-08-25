@@ -1,13 +1,13 @@
 {
-    "name": "mehtasatish/highcharts",
+    "name": "laravel/highcharts",
     "description": "PHP-Laravel5 Highcharts",
     "type": "library",
     "license": "MIT",
     "keywords" : ["laravel" , "highcharts","packages"],
     "authors": [
         {
-            "name": "Satish Mehta",
-            "email": "mehtasatishdutt@gmail.com"
+            "name": "MS Dutt",
+            "email": "mehtasatishdutt@outlook.com"
         }
     ],
     "minimum-stability": "stable",
